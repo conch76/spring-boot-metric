@@ -1,4 +1,4 @@
-# Riotmetric
+# Srping boot metric
 Riot Metric integration project for spring boot
 
 

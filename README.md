@@ -8,7 +8,7 @@ Riot Metric integration project for spring boot
 <dependency>
     <groupId>com.conch</groupId>
     <artifactId>metrics</artifactId>
-    <version>1.7.0</version>
+    <version>1.8.4</version>
 </dependency>
 ```
 

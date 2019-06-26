@@ -1,0 +1,22 @@
+metrics:
+  enabled: true
+  controller:
+    enabled: true
+
+---
+spring:
+  profiles: jvm-auto-configuration
+
+metrics:
+  rtp:
+    collectorUrl: http://collector-dev-internal.rdatasrv.net
+    rfc190scope: globalqa.las2.riotmetric.rtp.collector
+    discoverous: las2
+    reporting-period-in-min: 1
+  jvm:
+    enabled: true
+    cpu-usage-metrics-name: cpu-usage
+    memory-metrics-name: memory
+    gc-metrics-name: gc
+    thread-states-metrics-name: thread-states
+    fd-usage-metrics-name: fd-usage
